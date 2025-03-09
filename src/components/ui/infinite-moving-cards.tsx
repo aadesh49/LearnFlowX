@@ -20,28 +20,29 @@ export const InfiniteMovingCards = ({
     const scrollerRef = React.useRef<HTMLUListElement>(null);
     const [start, setStart] = useState(false);
 
-    useEffect(() => {
-        if (scrollerRef.current) {
-            updateAnimation();
-            setStart(true);
-        }
-    }, []);
-
+    
     const updateAnimation = () => {
         if (containerRef.current) {
             containerRef.current.style.setProperty(
                 "--animation-direction",
                 direction === "left" ? "forwards" : "reverse"
             );
-
+            
             let duration = "15s";
             if (speed === "fast") duration = "10ms";
             if (speed === "slow") duration = "40s";
-
+            
             containerRef.current.style.setProperty("--animation-duration", duration);
         }
     };
-
+    
+    useEffect(() => {
+        if (scrollerRef.current) {
+            updateAnimation();
+            setStart(true);
+        }
+    }, [updateAnimation]);
+    
     return (
         <div className="relative w-full h-screen flex flex-col items-center justify-center bg-black overflow-hidden">
             <h1 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl mb-18">Hell nOOOOOOO</h1>
