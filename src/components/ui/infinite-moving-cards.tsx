@@ -45,9 +45,9 @@ export const InfiniteMovingCards = ({
     
     return (
         <div className="relative w-full h-screen flex flex-col items-center justify-center bg-black overflow-hidden">
-            <h1 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl mb-18">Hell nOOOOOOO</h1>
+            <h1 className="mt-2 text-3xl font-extrabold text-white sm:text-4xl mb-18">What Our Learners Say</h1>
             {/* Matrix Background Grid with Soft Blue Glow */}
-            <div className="absolute inset-0 grid grid-cols-20 grid-rows-20 pointer-events-none opacity-30">
+            <div className="absolute inset-0 grid grid-cols-20 grid-rows-20 pointer-events-none opacity-40">
                 {Array.from({ length: 400 }).map((_, index) => (
                     <div
                         key={index}

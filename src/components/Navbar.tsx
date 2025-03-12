@@ -15,17 +15,16 @@ export default function Navbar({ className }: { className?: string }) {
         >
             <Menu setActive={setActive}>                    {/* to set many sub menus inside it */}
                 <Link href={"/"}>                           
-                    <MenuItem setActive={setActive} active={active} item="Service"></MenuItem>      {/* MenuItem is wrapper inside Link to provide direct routing, as we don't have any sub menus inside it  */}
+                    <MenuItem setActive={setActive} active={active} item="Home"></MenuItem>      {/* MenuItem is wrapper inside Link to provide direct routing, as we don't have any sub menus inside it  */}
                 </Link>
-                <MenuItem setActive={setActive} active={active} item="Our Courses">                 {/* This menu item has many sub items */}
-                    <div className="flex flex-col space-y-4 text-sm">
-                        <HoveredLink href="/">Web Development</HoveredLink>                         {/* hoveredLink work same as link  */}
-                        <HoveredLink href="/">Interface Design</HoveredLink>
-                        <HoveredLink href="/">Search Engine Optimization</HoveredLink>
-                        <HoveredLink href="/">Branding</HoveredLink>
+                <MenuItem setActive={setActive} active={active} item="Explore">                 {/* This menu item has many sub items */}
+                    <div className="flex flex-col space-y-4 text-sm">                  
+                        <HoveredLink href="/courses">Courses</HoveredLink>                      {/* hoveredLink work same as link  */}
+                        <HoveredLink href="/webinars">Webinars</HoveredLink>
+                        <HoveredLink href="/#instructors">Instructors</HoveredLink>              {/* by putting #id we will move to a specific point of the page */}
                     </div>
                 </MenuItem>
-                <Link href={"/"}>
+                <Link href={"/contact"}>
                     <MenuItem setActive={setActive} active={active} item="Contact Us"></MenuItem>
                 </Link>
 

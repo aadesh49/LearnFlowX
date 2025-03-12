@@ -12,10 +12,10 @@ export default function Hero() {
       {/* Content */}
       <div className="p-4 relative z-10 w-full text-center">
         <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          Conquer the field of Tech
+          Conquer the Field of Tech
         </h1>
         <p className="mt-6 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quo illo adipisci vero sunt reprehenderit doloremque in magnam quis, omnis fugit animi ad magni vitae tempore et, amet iusto aperiam!
+        LearnFlowX is your gateway to seamless learning. Explore a curated collection of courses designed to help you grow, innovate, and stay ahead in the tech world. Learn at your own pace with a unique and engaging experience.
         </p>
         <div className="mt-6 relative group">
             <Link className="relative px-6 py-3 text-white font-bold rounded-lg transition overflow-hidden border-2 border-transparent group-hover:border-white shadow-lg" href="/">

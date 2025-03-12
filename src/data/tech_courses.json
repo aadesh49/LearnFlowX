@@ -5,101 +5,102 @@
         "title": "Full-Stack Web Development",
         "slug": "full-stack-web-development",
         "description": "Master front-end and back-end development using JavaScript, React, Node.js, and MongoDB.",
-        "price": 199.99,
+        "price": 199,
         "instructor": "David Thompson",
         "isFeatured": true,
-        "image": "/courses/fullstack.jpg"
+        "image": "https://images.pexels.com/photos/270632/pexels-photo-270632.jpeg"
       },
       {
         "id": 2,
         "title": "Data Structures & Algorithms",
         "slug": "data-structures-algorithms",
         "description": "Boost your problem-solving skills with in-depth DSA concepts and coding exercises.",
-        "price": 149.99,
+        "price": 149,
         "instructor": "Sophia Williams",
         "isFeatured": true,
-        "image": "/courses/dsa.jpg"
+        "image": "https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
         "id": 3,
         "title": "Machine Learning & AI",
         "slug": "machine-learning-ai",
         "description": "Learn the fundamentals of Machine Learning and AI with hands-on Python projects.",
-        "price": 219.99,
+        "price": 219,
         "instructor": "Michael Johnson",
         "isFeatured": true,
-        "image": "/courses/ai.jpg"
+        "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
         "id": 4,
         "title": "Cybersecurity & Ethical Hacking",
         "slug": "cybersecurity-ethical-hacking",
         "description": "Understand cybersecurity fundamentals and ethical hacking techniques to secure systems.",
-        "price": 179.99,
+        "price": 179,
         "instructor": "Jessica Carter",
         "isFeatured": false,
-        "image": "/courses/cybersecurity.jpg"
+        "image": "https://images.pexels.com/photos/11035476/pexels-photo-11035476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
         "id": 5,
         "title": "Cloud Computing with AWS",
         "slug": "cloud-computing-aws",
         "description": "Get started with AWS cloud services, deployment, and architecture best practices.",
-        "price": 189.99,
+        "price": 189,
         "instructor": "Robert Anderson",
         "isFeatured": true,
-        "image": "/courses/cloud.jpg"
+        "image": "https://images.unsplash.com/photo-1628296499994-70face79ab36?q=80&w=1373&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
         "id": 6,
         "title": "React.js & Modern Frontend Development",
         "slug": "reactjs-frontend-development",
         "description": "Learn React.js from scratch and build interactive web applications with state management.",
-        "price": 169.99,
+        "price": 169,
         "instructor": "Emily Davis",
         "isFeatured": false,
-        "image": "/courses/react.jpg"
+        "image": "https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
         "id": 7,
         "title": "Python for Beginners",
         "slug": "python-for-beginners",
         "description": "Start your programming journey with Python and build real-world applications.",
-        "price": 129.99,
+        "price": 129,
         "instructor": "Daniel White",
         "isFeatured": true,
-        "image": "/courses/python.jpg"
+        "image": "https://images.pexels.com/photos/11035474/pexels-photo-11035474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
         "id": 8,
         "title": "DevOps & CI/CD Pipelines",
         "slug": "devops-cicd-pipelines",
         "description": "Learn DevOps practices, CI/CD pipelines, and automation with Docker and Kubernetes.",
-        "price": 209.99,
+        "price": 209,
         "instructor": "Sarah Martinez",
         "isFeatured": true,
-        "image": "/courses/devops.jpg"
+        "image": "https://images.pexels.com/photos/11035393/pexels-photo-11035393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
         "id": 9,
         "title": "Blockchain & Web3 Development",
         "slug": "blockchain-web3-development",
         "description": "Dive into blockchain technology, smart contracts, and decentralized applications.",
-        "price": 249.99,
+        "price": 249,
         "instructor": "William Brown",
         "isFeatured": false,
-        "image": "/courses/blockchain.jpg"
+        "image": "https://images.pexels.com/photos/9577230/pexels-photo-9577230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
         "id": 10,
         "title": "SQL & Database Management",
         "slug": "sql-database-management",
         "description": "Master SQL queries and database design using MySQL and PostgreSQL.",
-        "price": 139.99,
+        "price": 139,
         "instructor": "Olivia Wilson",
         "isFeatured": false,
-        "image": "/courses/sql.jpg"
+        "image": "https://images.unsplash.com/photo-1662026911591-335639b11db6?q=80&w=1462&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       }
     ]
   }
+  
   

@@ -1,0 +1,46 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "The Future of Web Development: Trends & Innovations",
+            "description": "Explore the latest advancements in web development, including AI, Web3, and serverless technologies.",
+            "link": "/webinars/future-of-web-dev",
+            "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": 2,
+            "title": "Mastering Technical Interviews: DSA & System Design",
+            "description": "Ace your technical interviews with expert strategies, real-world DSA problems, and system design insights.",
+            "link": "/webinars/technical-interviews",
+            "image": "https://images.unsplash.com/photo-1501159599894-155982264a55?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "id": 3,
+            "title": "Scaling Web Apps: Performance & Optimization Strategies",
+            "description": "Learn how to scale and optimize web applications for better performance, security, and user experience.",
+            "link": "/webinars/scaling-web-apps",
+            "image": "https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": 4,
+            "title": "AI & Chatbots: Building Smart Assistants with GPT & LangChain",
+            "description": "Discover how to integrate AI-powered chatbots into web applications using OpenAI, LangChain, and Next.js.",
+            "link": "/webinars/ai-chatbots",
+            "image": "https://images.pexels.com/photos/16245254/pexels-photo-16245254/free-photo-of-chatgpt-a-chatbot-for-your-website.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": 5,
+            "title": "Open Source Contributions: How to Get Started",
+            "description": "Learn how to contribute to open-source projects, collaborate with the community, and build your GitHub profile.",
+            "link": "/webinars/open-source-contributions",
+            "image": "https://images.pexels.com/photos/11035539/pexels-photo-11035539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": 6,
+            "title": "Core Java: Understanding the Basics",
+            "description": "Learn how Java works internally and how it provides different secure functionalites to their users.",
+            "link": "/webinars/core-java",
+            "image": "https://images.pexels.com/photos/11035360/pexels-photo-11035360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+    ]
+}

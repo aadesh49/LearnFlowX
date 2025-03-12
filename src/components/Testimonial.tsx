@@ -17,31 +17,33 @@ export function Testimonial() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "LearnFlowX has completely transformed the way I learn! The hands-on projects and real-world applications helped me gain confidence in my coding skills. Highly recommend it to anyone serious about tech.",
+    name: "Sarah Johnson",
+    title: "Software Engineer",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
-  },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
+      "The interactive lessons and up-to-date content make learning so much easier. I was able to land my first developer job after completing several courses here!",
+    name: "Mark Thompson",
+    title: "Junior Frontend Developer",
   },
   {
     quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+      "I love how practical and engaging the courses are. The real-world projects helped me build a strong portfolio, and the guidance from industry experts was invaluable.",
+    name: "Emily Davis",
+    title: "Full-Stack Developer",
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "LearnFlowX provides an amazing learning experience! The structured courses and hands-on approach helped me understand complex topics like React, Next.js, and APIs with ease.",
+    name: "James Carter",
+    title: "Freelance Web Developer",
+  },
+  {
+    quote:
+      "I’ve taken multiple online courses before, but LearnFlowX stands out with its in-depth explanations and focus on practical application. The best part? Learning at my own pace without feeling overwhelmed.",
+    name: "Olivia Martinez",
+    title: "AI & ML Enthusiast",
   },
 ];
+
