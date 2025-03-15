@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
@@ -19,24 +20,25 @@ export default function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="/" className="hover:text-white transition duration-300">
+              <Link href="/" className="hover:text-white transition duration-300">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/courses" className="hover:text-white transition duration-300">
-                Courses
-              </a>
+            <Link href="/courses" className="hover:text-white transition duration-300">
+            Courses
+              </Link>
+              
             </li>
             <li>
-              <a href="/webinars" className="hover:text-white transition duration-300">
+              <Link href="/webinars" className="hover:text-white transition duration-300">
                 Webinars
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="hover:text-white transition duration-300">
+              <Link href="/contact" className="hover:text-white transition duration-300">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -45,15 +47,15 @@ export default function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex space-x-4">
-            <a href="/" className="hover:text-white transition duration-300">
+            <Link href="/" className="hover:text-white transition duration-300">
               <FaFacebookF className="text-xl" />
-            </a>
-            <a href="/" className="hover:text-white transition duration-300">
+            </Link>
+            <Link href="/" className="hover:text-white transition duration-300">
               <FaTwitter className="text-xl" />
-            </a>
-            <a href="/" className="hover:text-white transition duration-300">
+            </Link>
+            <Link href="/" className="hover:text-white transition duration-300">
               <FaInstagram className="text-xl" />
-            </a>
+            </Link>
           </div>
         </div>
 

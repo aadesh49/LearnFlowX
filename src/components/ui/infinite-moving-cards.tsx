@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
     items,
@@ -21,20 +21,27 @@ export const InfiniteMovingCards = ({
     const [start, setStart] = useState(false);
 
     
-    const updateAnimation = () => {
+    const updateAnimation = useCallback(() => {
         if (containerRef.current) {
             containerRef.current.style.setProperty(
                 "--animation-direction",
                 direction === "left" ? "forwards" : "reverse"
             );
-            
+
             let duration = "15s";
             if (speed === "fast") duration = "10ms";
             if (speed === "slow") duration = "40s";
-            
+
             containerRef.current.style.setProperty("--animation-duration", duration);
         }
-    };
+    }, [direction, speed]); // Dependencies: Only changes when `direction` or `speed` changes
+
+    useEffect(() => {
+        if (scrollerRef.current) {
+            updateAnimation();
+            setStart(true);
+        }
+    }, [updateAnimation]);
     
     useEffect(() => {
         if (scrollerRef.current) {

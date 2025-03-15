@@ -2,14 +2,14 @@
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 
-export default function page() {
+export default function Page() {
   const router = useRouter();
 
   return (
     <div className="min-h-screen bg-gray-900 text-white py-12 px-6">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl font-bold text-teal-500 mt-20">Contact Us</h1>
-        <p className="text-gray-400 mt-2">We'd love to hear from you!</p>
+        <p className="text-gray-400 mt-2">We would love to hear from you!</p>
       </div>
 
       <div className="max-w-4xl mx-auto mt-10 bg-gray-800 p-6 rounded-lg shadow-lg">

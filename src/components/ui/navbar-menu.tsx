@@ -109,11 +109,14 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }: any) => {
+export const HoveredLink = ({
+  children,
+  ...rest
+}: React.ComponentProps<typeof Link>) => {                    //type of this parameter is Link
   return (
     <Link
       {...rest}
-      className="text-neutral-700 dark:text-neutral-200 "
+      className="text-neutral-700 dark:text-neutral-200"
     >
       {children}
     </Link>
