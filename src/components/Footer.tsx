@@ -9,9 +9,7 @@ export default function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4 text-sm leading-relaxed">
-            LearnFlowX is a premier institution dedicated to teaching the art
-            and science of music. We nurture talent, fostering a vibrant
-            community of musicians.
+            LearnFlowX is a modern learning platform dedicated to sharing knowledge in technology and beyond. We foster a vibrant community of learners, empowering them with cutting-edge courses and resources to enhance their skills. 
           </p>
         </div>
 
