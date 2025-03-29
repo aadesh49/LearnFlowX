@@ -6,7 +6,7 @@ import type { NextConfig } from "next";
   }
 }; */
 
-const nextConfig = {
+const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
@@ -18,6 +18,9 @@ const nextConfig = {
         hostname: "images.pexels.com",
       },
     ],
+  },
+  env: {
+    NEXT_PUBLIC_FORM: process.env.NEXT_PUBLIC_FORM,
   },
 };
 
